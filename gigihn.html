@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gigi HN - 💛💫</title>
+  <style>
+    /* ====== ESTILOS GENERALES ====== */
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f6f4fa;
+      color: #3a2a4e;
+    }
+
+    header {
+      background-color: #c2a8e3;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+      font-size: 1.8em;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      background-color: #e4d4f4;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #3a2a4e;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #6b46c1;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #6b46c1;
+      margin-bottom: 30px;
+    }
+
+    /* ====== CATÁLOGO ====== */
+    .catalogo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .producto {
+      background: white:;
+      border-radius: 15px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .producto:hover {
+      transform: translateY(-5px);
+    }
+
+    .producto img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      border-radius: 50px;
+    }
+
+    .producto h3 {
+      margin-top: 15px;
+      color: #3a2a4e;
+    }
+
+    .precio {
+      font-weight: bold;
+      color: #6b46c1;
+    }
+
+    .boton {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #c2a8e3;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .boton:hover {
+      background-color: #a887d9;
+    }
+
+    /* ====== SECCIONES EXTRA ====== */
+    .sobre, .contacto {
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #c2a8e3;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+
+    /* ====== RESPONSIVE ====== */
+    @media (max-width: 768px) {
+      nav {
+        gap: 15px;
+      }
+      header {
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header> Gigi HN 💛💫</header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#Skincare">Skincare</a>
+    <a href="#Productos Corporales">Productos Corporales</a>
+    <a href="#Productos Capilares">Productos Capilares</a>
+    <a href="#Maquillaje">Maquillaje</a>
+    <a href="#sobre">Sobre nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <!-- ====== INICIO ====== -->
+  <section id="inicio">
+    <h2>Glow que se nota, confianza que se siente ✨</h2>
+    <p style="text-align:center; max-width:700px; margin:0 auto;">
+      En <strong>Gigi HN</strong> creemos en el cuidado de tu piel, cuerpo y cabello con productos dermatológicamente probados.
+      Descubre nuestras líneas de cuidado facial, corporal, capilar y maquillaje.
+    </p>
+  </section>
+
+  <!-- ====== SKINCARE ====== -->
+  <section id="Skincare">
+    <h2>🌿 Cuidado Facial</h2>
+    <div class="catalogo">
+
+      <div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\Jabon Neutrogena.jpeg">        
+        <h3>Jabon Neutrogena</h3>
+        <p> El Hydro Boost Gel Cleanser con ácido hialurónico limpia suavemente sin resecar la piel, eliminando el exceso de grasa y maquillaje mientras hidrata. Ideal para todo tipo de piel, incluso las más sensibles.</p>
+        <p class="precio">L. 600</p>
+        <a href="https://wa.me/+50488904534" class="boton">Comprar</a>
+      </div>
+
+      <div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\Vitamina C.jpeg">
+        <h3> Vitamina C de Cerave  </h3>
+        <p>Un poquito de brillo no le hace daño a nadie. Empieza tus mañanas con glow y buena vibra.</p>
+        <p class="precio">L.350 </p>
+        <a href="https://wa.me/+50488904534" class="boton">Comprar</a>
+      </div>
+
+ <div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\Cerave helen.jpeg">
+        <h3>CeraVe Foaming Cleanser:  </h3>
+        <p>Limpia profundamente y elimina el exceso de grasa, sin atacar la barrera de tu piel.</p>
+        <p class="precio">L.750 </p>
+        <a href="https://wa.me/tu_numero" class="boton">Comprar</a>
+      </div>
+
+ <div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\Glicoico.jpeg">
+        <h3>The Ordinary Glycolic Acid 7% Exfoliating Toner </h3>
+        <p>Renueva la apariencia de tu piel con una exfoliación suave pero efectiva.
+Formulado con Ácido Glicólico al 7%, ayuda a remover células muertas para lograr una textura más lisa, luminosa y uniforme.</p>
+        <p class="precio">L.650 </p>
+        <a href="https://wa.me/tu_numero" class="boton">Comprar</a>
+      </div>
+
+ <div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\Duo.jpeg">
+        <h3>Duo de Cremas Dia y Noche de Cerave </h3>
+        <p>Hidratación y cuidado 24/7. La crema de día protege y nutre tu piel, mientras que la crema de noche la repara y renueva mientras duermes</p>
+        <p class="precio">L.1,100 </p>
+        <a href="https://wa.me/tu_numero" class="boton">Comprar</a>
+      </div>
+
+ <div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\Niacinamida.jpeg">
+        <h3>The Ordinary Niacinamide 10% + Zinc 1% </h3>
+        <p>Sérum ligero diseñado para equilibrar la producción de sebo y mejorar la apariencia de la piel.Formulado con Niacinamida (Vitamina B3) y Zinc, ayuda a mantener un aspecto más uniforme y saludable </p>
+        <p class="precio">L.450 </p>
+        <a href="https://wa.me/tu_numero" class="boton">Comprar</a>
+      </div>
+
+ <div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\AHA.jpeg">
+        <h3>The Ordinary AHA 30% + BHA 2% Peeling Solution </h3>
+        <p>Exfoliante químico de acción intensa que ayuda a renovar la piel en solo 10 minutos.Formulado con AHA (Ácidos Alfa-Hidroxi) y BHA (Ácidos Beta-Hidroxi), mejora la textura, la luminosidad y la apariencia general del rostro.</p>
+        <p class="precio">L.450 </p>
+        <a href="https://wa.me/tu_numero" class="boton">Comprar</a>
+      </div>
+
+ <div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\crema neutrogena.jpeg">
+        <h3>Neutrogena Hydro Boost Water Gel  </h3>
+        <p>Refresca tu piel con una hidratación intensa y duradera. Este gel ligero con Ácido Hialurónico y Trehalosa se absorbe al instante, dejando tu rostro suave, terso y lleno de vida.</p>
+        <p class="precio">L.750 </p>
+        <a href="https://wa.me/tu_numero" class="boton">Comprar</a>
+      </div>
+
+ 
+
+    </div>
+  </section>
+
+  <!-- ====== PRODUCTOS CORPORALES ====== -->
+  <section id="Productos Corporales">
+    <h2>🧴 Cuidado Corporal</h2>
+    <div class="catalogo">
+
+      <div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\EOS grande.jpeg">
+        <h3>EOS Shea Better Body Lotion</h3>
+        <p>Nutre e hidrata la piel todo el dia ,dejandola con brillo y olor a vainilla que dura todo el dia .</p>
+        <p class="precio">L. 570</p>
+        <a href="https://wa.me/tu_numero" class="boton">Comprar</a>
+      </div>
+
+      <div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\EOs pequeña.jpeg">
+        <h3>Crema de Manos EOS Ultra Care con Karité</h3>
+        <p>Formulada con manteca de karité natural para brindar hidratación intensa y duradera. Su textura ligera se absorbe rápidamente sin dejar sensación grasosa, dejando la piel suave, tersa y con un delicado aroma.</p>
+        <p class="precio">L. 450</p>
+        <a href="https://wa.me/tu_numero" class="boton">Comprar</a>
+      </div>
+
+ <div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\Exfoliante.jpeg">
+        <h3>Tree Hut Strawberry Shea Sugar Scrub</h3>
+        <p>Este exfoliante de azúcar con manteca de karité y extracto de fresa elimina las células muertas, dejando tu piel suave, radiante y con un aroma dulce que enamora.</p>
+        <p class="precio">L. 450</p>
+        <a href="https://wa.me/tu_numero" class="boton">Comprar</a>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- ====== PRODUCTOS CAPILARES ====== -->
+  <section id="Productos Capilares">
+    <h2>💆‍♀️ Cuidado Capilar</h2>
+    <div class="catalogo">
+
+      <div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\Karsell.jpeg">
+        <h3>Mascarilla Karseell Collagen</h3>
+        <p>Con esencia de Maca y Colágeno nutre profundamente el cabello seco y maltratado, ayudando a reparar el daño químico, devolver suavidad y brillo desde la primera aplicación. Ideal para cabellos teñidos, procesados o resecos</p>
+        <p class="precio">L. 550</p>
+        <a href="https://wa.me/tu_numero" class="boton">Comprar</a>
+      </div>
+
+      <div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\Mielle.jpeg">
+        <h3>Mielle Rosemary Mint Oil con Biotina</h3>
+        <p>Fortalece tu cabello desde la raíz hasta las puntas. Úsalo a diario para el crecimiento, el cuero cabelludo y las puntas abiertas. </p>
+        <p class="precio">L. 450</p>
+        <a href="https://wa.me/tu_numero" class="boton">Comprar</a>
+      </div>
+
+ <div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\corea.jpeg">
+        <h3>Elizavecca CER-100</h3>
+        <p>Su fórmula con colágeno y ceramidas ayuda a reparar el daño, suavizar las puntas y dejar tu melena más brillante y manejable.
+Ideal para cabello maltratado por tinte o calor.</p>
+        <p class="precio">L. 480</p>
+        <a href="https://wa.me/tu_numero" class="boton">Comprar</a>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- ====== MAQUILLAJE ====== -->
+  <section id="Maquillaje">
+    <h2>💄 Maquillaje</h2>
+    <div class="catalogo">
+
+      <div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\Fijador.jpeg">
+        <h3> e.l.f. Power Grip Dewy Setting Spray</h3>
+        <p>El secreto para un maquillaje que dura y brilla. Consigue una fijación potente y un acabado radiante (dewy) que no se mueve. ¡Tu look perfecto, todo el día!</p>
+        <p class="precio">L. 450</p>
+        <a href="https://wa.me/tu_numero" class="boton">Comprar</a>
+      </div>
+
+      <div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\lapiz.jpeg">
+        <h3>e.l.f. Ultra Precise Brow Pencil:</h3>
+        <p>Consigue cejas perfectas y definidas al instante.Su punta fina crea trazos que imitan el vello natural, y el cepillo integrado las peina y difumina. </p>
+        <p class="precio">L. 280</p>
+        <a href="https://wa.me/tu_numero" class="boton">Comprar</a>
+      </div>
+
+<div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\labial elf.jpeg">
+        <h3>e.l.f. Glow Reviver lip oil</h3>
+        <p>Te ofrecen nutricio, color, suavidad y un acabado radiante para cada ocasión.</p>
+        <p class="precio">L. 420</p>
+        <a href="https://wa.me/tu_numero" class="boton">Comprar</a>
+      </div>
+
+<div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\tinta nix.jpeg">
+        <h3>NYX Fat Oil Lip Drip </h3>
+        <p>Hidratación intensa hasta por 12 horas, color irresistible y labios que roban miradas</p>
+        <p class="precio">L. 420</p>
+        <a href="https://wa.me/tu_numero" class="boton">Comprar</a>
+      </div>
+
+<div class="producto">
+        <img src="C:\Users\johnv_jjss\Downloads\Proyecto\Gigi\Index.html\Imagenes\Rubor.jpeg">
+        <h3>Camo Liquid Blush de e.l.f.</h3>
+        <p>Ofrece pigmentos intensos y una textura ligera para un rubor natural que dura todo el día. </p>
+        <p class="precio">L. 450</p>
+        <a href="https://wa.me/tu_numero" class="boton">Comprar</a>
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <!-- ====== SOBRE NOSOTROS ====== -->
+  <section id="sobre" class="sobre">
+    <h2>Sobre Nosotros</h2>
+    <p>
+      En <strong>Gigi HN</strong> nos apasiona el cuidado personal.  
+      Ofrecemos productos auténticos, seguros y seleccionados con amor  
+      para resaltar tu belleza natural y tu confianza cada día.
+    </p>
+  </section>
+
+  <!-- ====== CONTACTO ====== -->
+  <section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+    <p>📞 WhatsApp: <a href="https://wa.me/tu_numero">50488904534</a></p>
+    <p>📧 Email: gigihn@gmail.com</p>
+    <p>📍 Envíos a todo Honduras</p>
+  </section>
+
+
+  <footer>
+    © 2025 Gigi HN Skincare | Todos los derechos reservados 💜
+  </footer>
+ 
+</body>
+</html>
+
+</body>
+</html>
